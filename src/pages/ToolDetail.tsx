@@ -1,6 +1,5 @@
 import { useParams, Link, useNavigate } from 'react-router-dom';
 import toolsData from '../data/tools.json';
-import type { Tool } from '../types/Tool';
 
 export default function ToolDetail() {
   const { name } = useParams<{ name: string }>();
