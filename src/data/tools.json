@@ -22,5 +22,141 @@
     "category": "Design",
     "link": "https://www.figma.com/",
     "tags": ["design", "ui"]
+  },
+  {
+    "id": 4,
+    "name": "GitHub",
+    "description": "Host and review code, manage projects, and build software.",
+    "category": "Version Control",
+    "link": "https://github.com/",
+    "tags": ["git", "version control", "collaboration"]
+  },
+  {
+    "id": 5,
+    "name": "Docker",
+    "description": "Platform to build, run, and share containerized applications.",
+    "category": "DevOps",
+    "link": "https://www.docker.com/",
+    "tags": ["containers", "devops", "deployment"]
+  },
+  {
+    "id": 6,
+    "name": "Jira",
+    "description": "Project management software for agile teams.",
+    "category": "Project Management",
+    "link": "https://www.atlassian.com/software/jira",
+    "tags": ["project management", "agile", "collaboration"]
+  },
+  {
+    "id": 7,
+    "name": "Slack",
+    "description": "Team communication and collaboration platform.",
+    "category": "Communication",
+    "link": "https://slack.com/",
+    "tags": ["communication", "chat", "collaboration"]
+  },
+  {
+    "id": 8,
+    "name": "Webpack",
+    "description": "A static module bundler for modern JavaScript applications.",
+    "category": "Build Tools",
+    "link": "https://webpack.js.org/",
+    "tags": ["bundler", "javascript", "build"]
+  },
+  {
+    "id": 9,
+    "name": "ESLint",
+    "description": "Pluggable linting utility for JavaScript and TypeScript.",
+    "category": "Code Quality",
+    "link": "https://eslint.org/",
+    "tags": ["linting", "code quality", "typescript", "javascript"]
+  },
+  {
+    "id": 10,
+    "name": "Prettier",
+    "description": "Opinionated code formatter.",
+    "category": "Code Quality",
+    "link": "https://prettier.io/",
+    "tags": ["formatter", "code style", "javascript", "typescript"]
+  },
+  {
+    "id": 11,
+    "name": "Chrome DevTools",
+    "description": "Set of web developer tools built directly into Google Chrome.",
+    "category": "Debugging",
+    "link": "https://developer.chrome.com/docs/devtools/",
+    "tags": ["debugging", "browser", "performance"]
+  },
+  {
+    "id": 12,
+    "name": "Redux",
+    "description": "Predictable state container for JavaScript apps.",
+    "category": "State Management",
+    "link": "https://redux.js.org/",
+    "tags": ["state management", "javascript", "react"]
+  },
+  {
+    "id": 13,
+    "name": "Next.js",
+    "description": "The React Framework for Production.",
+    "category": "Framework",
+    "link": "https://nextjs.org/",
+    "tags": ["react", "ssr", "framework"]
+  },
+  {
+    "id": 14,
+    "name": "Tailwind CSS",
+    "description": "A utility-first CSS framework for rapid UI development.",
+    "category": "CSS Framework",
+    "link": "https://tailwindcss.com/",
+    "tags": ["css", "utility-first", "design"]
+  },
+  {
+    "id": 15,
+    "name": "Jest",
+    "description": "Delightful JavaScript Testing Framework with a focus on simplicity.",
+    "category": "Testing",
+    "link": "https://jestjs.io/",
+    "tags": ["testing", "javascript", "unit tests"]
+  },
+  {
+    "id": 16,
+    "name": "Cypress",
+    "description": "Fast, easy and reliable testing for anything that runs in a browser.",
+    "category": "Testing",
+    "link": "https://www.cypress.io/",
+    "tags": ["testing", "e2e", "automation"]
+  },
+  {
+    "id": 17,
+    "name": "Visual Studio",
+    "description": "Microsoft’s integrated development environment (IDE) for .NET and C++.",
+    "category": "IDE",
+    "link": "https://visualstudio.microsoft.com/",
+    "tags": ["ide", "microsoft", "c++", ".net"]
+  },
+  {
+    "id": 18,
+    "name": "Insomnia",
+    "description": "A powerful HTTP and GraphQL client for developers.",
+    "category": "API",
+    "link": "https://insomnia.rest/",
+    "tags": ["api", "graphql", "testing"]
+  },
+  {
+    "id": 19,
+    "name": "CircleCI",
+    "description": "Continuous integration and delivery platform.",
+    "category": "DevOps",
+    "link": "https://circleci.com/",
+    "tags": ["ci", "cd", "devops"]
+  },
+  {
+    "id": 20,
+    "name": "Netlify",
+    "description": "All-in-one platform for automating modern web projects.",
+    "category": "Hosting",
+    "link": "https://www.netlify.com/",
+    "tags": ["hosting", "deployment", "serverless"]
   }
 ]
