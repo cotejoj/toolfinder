@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Visual Studio Code",
+    "description": "A lightweight but powerful source code editor from Microsoft.",
+    "category": "Editor",
+    "link": "https://code.visualstudio.com/",
+    "tags": ["editor", "productivity"]
+  },
+  {
+    "id": 2,
+    "name": "Postman",
+    "description": "API platform for building and using APIs.",
+    "category": "API",
+    "link": "https://www.postman.com/",
+    "tags": ["api", "testing"]
+  },
+  {
+    "id": 3,
+    "name": "Figma",
+    "description": "Collaborative interface design tool.",
+    "category": "Design",
+    "link": "https://www.figma.com/",
+    "tags": ["design", "ui"]
+  }
+]
