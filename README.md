@@ -1,69 +1,87 @@
-# React + TypeScript + Vite
+# Dev Tools Catalog
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based web app showcasing a curated list of developer tools.  
+Built with React, Tailwind CSS, and React Router, featuring search, tag filtering, dark mode, and detailed tool pages.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- Browse a collection of developer tools with name, description, category, tags, and links.  
+- Search tools by name or description.  
+- Filter tools by tags.  
+- Click on any tool card to see detailed info on a dedicated page.  
+- Responsive design with a modern Tailwind CSS color palette.  
+- Dark mode support with smooth theme transitions.  
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## Technologies Used
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+- React (with functional components and hooks)  
+- React Router v6 for client-side routing  
+- Tailwind CSS for styling and theming  
+- TypeScript for static typing  
+- Vite / Create React App (specify your setup) for bundling and dev server  
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+---
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v16 or newer recommended)  
+- npm or yarn package manager  
+
+### Installation
+
+1. Clone the repo  
+   ```bash
+   git clone https://github.com/yourusername/dev-tools-catalog.git
+   cd dev-tools-catalog
+   ```
+
+2. Install dependencies  
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+3. Run the app locally  
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+4. Open http://localhost:3000 (or specified port) in your browser.
+
+---
+
+## Project Structure
+
+```
+/src
+  /components
+    ToolCard.tsx        # Card component for displaying tool summary
+  /pages
+    ToolsList.tsx       # Main page with search, filter, and listing
+    ToolDetail.tsx      # Detailed page for each tool
+  /data
+    tools.json          # JSON file containing tool data
+  /types
+    Tool.ts             # TypeScript interface for tool data
+App.tsx                # Router and main app setup
+tailwind.config.js     # Tailwind CSS configuration and color theme
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## Customization
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- Update `tools.json` to add or modify tools.  
+- Adjust Tailwind colors in `tailwind.config.js` for theming.  
+- Extend functionality by adding dark mode toggle or sorting.
+
+---
