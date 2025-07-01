@@ -1,4 +1,4 @@
-# Dev Tools Catalog
+# ToolFinder
 
 A React-based web app showcasing a curated list of developer tools.  
 Built with React, Tailwind CSS, and React Router, featuring search, tag filtering, dark mode, and detailed tool pages.
@@ -37,7 +37,7 @@ Built with React, Tailwind CSS, and React Router, featuring search, tag filterin
 
 1. Clone the repo  
    ```bash
-   git clone https://github.com/yourusername/dev-tools-catalog.git
+   git clone https://github.com/cotejoj/toolfinder.git
    cd dev-tools-catalog
    ```
 
@@ -55,7 +55,7 @@ Built with React, Tailwind CSS, and React Router, featuring search, tag filterin
    yarn dev
    ```
 
-4. Open http://localhost:3000 (or specified port) in your browser.
+4. Open http://localhost:5137 (or specified port) in your browser.
 
 ---
 
